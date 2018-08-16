@@ -13,7 +13,8 @@ namespace C_Step120
             Employee Employee1 = new Employee();
             Employee1.FirstName = "Sample";
             Employee1.LastName = "Student";
-            Console.WriteLine(Employee1);
+            Employee1.SayName();
+            
             Console.ReadLine();
         }
     }
